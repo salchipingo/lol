@@ -1,0 +1,237 @@
+-- Made by salchi
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(57, 103, 255)
+Frame.Position = UDim2.new(0.149015933, 0, 0.3828125, 0)
+Frame.Size = UDim2.new(0, 402, 0, 220)
+Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(71, 145, 255)
+TextLabel.Size = UDim2.new(0, 402, 0, 28)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "prison life"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+TextButton.Parent = TextLabel
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.Position = UDim2.new(0.940298498, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 24, 0, 28)
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+Frame.Visible = false
+Frame_2.Visible = true
+end)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(84, 115, 255)
+TextLabel_2.Position = UDim2.new(0.711442769, 0, 0.927272737, 0)
+TextLabel_2.Size = UDim2.new(0, 116, 0, 16)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Made by salchi"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(83, 129, 255)
+TextButton_2.Position = UDim2.new(0.0298507456, 0, 0.313636363, 0)
+TextButton_2.Size = UDim2.new(0, 137, 0, 35)
+TextButton_2.Font = Enum.Font.GothamBlack
+TextButton_2.Text = "prison destroyer"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+-- Made By Jake11price
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local prisonbreakerv15 = Instance.new("TextButton")
+local prisonbreakerv16 = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.new(0, 0, 0)
+main.Position = UDim2.new(0.0203577988, 0, 0.641277611, 0)
+main.Size = UDim2.new(0, 332, 0, 211)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.new(1, 0, 1)
+title.Size = UDim2.new(0, 332, 0, 31)
+title.Font = Enum.Font.GothamBold
+title.Text = "Test Gui"
+title.TextColor3 = Color3.new(0, 0, 0)
+title.TextSize = 14
+
+prisonbreakerv15.Name = "prisonbreakerv15"
+prisonbreakerv15.Parent = main
+prisonbreakerv15.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+prisonbreakerv15.Position = UDim2.new(0.036144577, 0, 0.379146934, 0)
+prisonbreakerv15.Size = UDim2.new(0, 110, 0, 50)
+prisonbreakerv15.Font = Enum.Font.GothamBold
+prisonbreakerv15.Text = "PrisonBreaker V1.5"
+prisonbreakerv15.TextColor3 = Color3.new(0, 0, 0)
+prisonbreakerv15.TextScaled = true
+prisonbreakerv15.TextSize = 10
+prisonbreakerv15.TextWrapped = true
+prisonbreakerv15.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HpCpt9rt",true))()
+end)
+
+prisonbreakerv16.Name = "prisonbreakerv16"
+prisonbreakerv16.Parent = main
+prisonbreakerv16.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+prisonbreakerv16.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
+prisonbreakerv16.Size = UDim2.new(0, 110, 0, 50)
+prisonbreakerv16.Font = Enum.Font.GothamBold
+prisonbreakerv16.Text = "PrisonBreaker V1.6"
+prisonbreakerv16.TextColor3 = Color3.new(0, 0, 0)
+prisonbreakerv16.TextScaled = true
+prisonbreakerv16.TextSize = 14
+prisonbreakerv16.TextWrapped = true
+prisonbreakerv16.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4rkRHviN",true))()
+end)
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.new(1, 0, 0)
+close.Position = UDim2.new(0.879518092, 0, 0, 0)
+close.Size = UDim2.new(0, 40, 0, 31)
+close.Font = Enum.Font.GothamBlack
+close.Text = "X"
+close.TextColor3 = Color3.new(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+main.Visible = false
+openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.new(1, 1, 1)
+openmain.Position = UDim2.new(0.00801973976, 0, 0.423832953, 0)
+openmain.Size = UDim2.new(0, 100, 0, 28)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.new(1, 0, 0)
+open.Size = UDim2.new(0, 100, 0, 28)
+open.Font = Enum.Font.GothamBold
+open.Text = "OPEN"
+open.TextColor3 = Color3.new(0, 0, 0)
+open.TextSize = 18
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+openmain.Visible = false
+main.Visible = true
+end)
+end)
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(106, 133, 255)
+TextButton_3.Position = UDim2.new(0.547263682, 0, 0.313636363, 0)
+TextButton_3.Size = UDim2.new(0, 137, 0, 35)
+TextButton_3.Font = Enum.Font.GothamBlack
+TextButton_3.Text = "spawn cars"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+game:GetService("RunService").RenderStepped:Connect(function()
+game.Players.LocalPlayer.SimulationRadius = math.huge
+game.Players.LocalPlayer.MaximumSimulationRadius = math.huge
+end)
+game.StarterGui:SetCore("SendNotification", {Title = "Credits"; Text = "Discord - Voyager#3458       V3rmillion - Duck Guy"; Duration = 5})
+local Mouse = game.Players.LocalPlayer:GetMouse()
+Mouse.Button1Down:Connect(function(hit)
+for i,v in pairs(workspace.Prison_ITEMS.buttons:GetDescendants()) do
+if v.Name == "Car Spawner" and v.ClassName == "Part" then
+workspace.Remote.ItemHandler:InvokeServer(v)
+end
+end
+wait(.5)
+for i,v in pairs(workspace.CarContainer:GetChildren()) do
+v:MoveTo(Mouse.hit.p)
+v.Parent = workspace
+end
+end)
+end)
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(108, 130, 255)
+TextButton_4.Position = UDim2.new(0.0298507456, 0, 0.686363637, 0)
+TextButton_4.Size = UDim2.new(0, 137, 0, 35)
+TextButton_4.Font = Enum.Font.GothamBlack
+TextButton_4.Text = "Jmuse v3,0"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/Prison%20Life%20GUI%20v3.0.lua",true))()
+end)
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(96, 133, 255)
+TextButton_5.Position = UDim2.new(0.547263682, 0, 0.686363637, 0)
+TextButton_5.Size = UDim2.new(0, 137, 0, 35)
+TextButton_5.Font = Enum.Font.GothamBlack
+TextButton_5.Text = "prison ruiner"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://hastebin.com/raw/kihuwigowa.loadstringer'),true))()
+end)
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0.870665431, 0, 0.892578125, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 28)
+
+TextButton_6.Parent = Frame_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(96, 104, 255)
+TextButton_6.Position = UDim2.new(0.0100000203, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0, 99, 0, 28)
+TextButton_6.Font = Enum.Font.GothamBlack
+TextButton_6.Text = "abrir"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:connect(function()
+Frame_2.Visible = false
+Frame.Visible = true
+end)
